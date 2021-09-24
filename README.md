@@ -23,15 +23,17 @@
 3) запустить тесты - `npm test`
 
 Результат прогона тестов выглядит примерно так: 
-`PASS  src/checkCreditConditions.test.ts`
-`PASS  src/makeCreditDecision.test.ts`
-`PASS  src/countCreditRate.test.ts`
-`PASS  src/userDataValidation.test.ts`
-`PASS  src/countAnnualPaymentAndInterest.test.ts`
-`PASS  src/findMaxCreditAmount.test.ts`
+```
+ PASS  src/checkCreditConditions.test.ts
+ PASS  src/makeCreditDecision.test.ts
+ PASS  src/userDataValidation.test.ts
+ PASS  src/findMaxCreditAmount.test.ts
+ PASS  src/countAnnualPaymentAndInterest.test.ts
+ PASS  src/countCreditRate.test.ts
 
-`Test Suites: 6 passed, 6 total`
-`Tests:       44 passed, 44 total`
-`Snapshots:   0 total`
-`Time:        2.755 s`
-`Ran all test suites related to changed files.`
+Test Suites: 6 passed, 6 total
+Tests:       44 passed, 44 total
+Snapshots:   0 total
+Time:        1.592 s, estimated 2 s
+Ran all test suites.
+```
